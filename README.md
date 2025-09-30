@@ -19,19 +19,27 @@ Nombre de los integrantes:
 Interpretación de resultados.
 
 a. ¿De qué trata el dataset?
-Este dataset contiene información sobre artistas de K-pop, sus fechas de debut y sus éxitos más importantes. Cada fila representa a un grupo o solista, y las columnas incluyen datos como el nombre, la fecha de debut, el número de éxitos, el signo zodiacal y otros detalles relacionados con la astrología.
+El dataset recopila información de grupos y solistas de K-Pop, incluyendo sus años de debut y las canciones que entraron a listas de éxitos. Permite analizar la evolución de la industria, la cantidad de debuts por año y la presencia de cada grupo en rankings.
 
-b. ¿Qué información da el resumen estadístico?
-El resumen estadístico muestra datos como cuántos registros hay, la media y la desviación estándar de valores numéricos como el número de éxitos, además de información sobre los signos zodiacales, como cuántas veces aparece cada signo y cuál es el más común.
+b. ¿Qué información muestra el resumen estadístico?
 
-c. ¿Qué cambios o tendencias se ven en el dataset?
-Se puede ver que ciertos signos zodiacales son más frecuentes entre los artistas que tuvieron más éxitos. También puede notarse que los grupos debutaron en diferentes años, con un aumento en los últimos años, lo que indica que el K-pop sigue creciendo y renovándose.
+Para columnas numéricas (como año de debut o ranking) muestra el valor mínimo, máximo, media, desviación y percentiles.
 
-d. ¿Qué categorías resaltan y por qué crees que es así?
-Los signos de fuego (Aries, Leo, Sagitario) suelen sobresalir porque muchos idols con esos signos tienen carreras exitosas, quizás por su personalidad energética y carismática, que puede atraer a más fans. Además, algunos años de debut tienen más artistas, probablemente por tendencias o ciclos en la industria.
+Para columnas categóricas (grupo, canción, álbum) indica cuántos valores únicos hay y cuál es el más frecuente.
 
-e. ¿Qué diferencias hay entre los primeros y los últimos registros?
-Los primeros registros corresponden a artistas que debutaron hace más tiempo, con menos datos sobre astrología o menos éxitos documentados, mientras que los más recientes muestran más información y en general un mayor número de éxitos, reflejando la popularidad creciente del K-pop.
+c. ¿Qué cambios o tendencias se detectan?
+Se observa un aumento de debuts a partir de los 2000, con un pico en la tercera y cuarta generación de K-Pop. En cuanto a éxitos, hay más registros en los últimos 10-15 años, lo que refleja la globalización del género.
 
-f. ¿Para qué sirven las medidas estadísticas en el análisis?
-Las medidas como la media y la desviación estándar ayudan a entender cuántos éxitos tiene en promedio un artista y qué tan variable es ese número. Así podemos saber si la mayoría tiene un nivel parecido o si hay algunos con muchos más éxitos que otros, y la mediana nos ayuda a ver el valor típico sin que los casos extremos lo distorsionen.
+d. ¿Qué categorías sobresalen y por qué?
+Los grupos más populares (ej. BTS, EXO, BLACKPINK, Twice) aparecen con más canciones en listas. Esto se debe a su impacto global, fandoms masivos y apoyo digital.
+
+e. Diferencias entre primeros y últimos registros.
+
+Primeros: grupos pioneros con menor presencia en listas internacionales.
+Últimos: grupos actuales con fuerte entrada en rankings globales.
+
+f. ¿Qué aportan las medidas estadísticas?
+
+La media del año de debut muestra en qué periodo se concentra la mayoría de grupos.
+La mediana permite ver el “punto central” de la ola de debuts.
+La desviación estándar indica si los debuts están dispersos en el tiempo o concentrados en ciertas décadas.
