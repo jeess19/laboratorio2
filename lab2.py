@@ -46,7 +46,7 @@ print("="*50)
 # 5. Ordenar resultados por año de debut (columna 0)
 col_debut = data[:, 0]
 if col_debut.size == 0 or np.all(np.isnan(col_debut)):
-    print("⚠ No hay datos válidos para la columna 'Debut'. No se puede ordenar.")
+    print(" No hay datos válidos para la columna 'Debut'. No se puede ordenar.")
 else:
     ordenados_debut = data[np.argsort(col_debut)]
     print("Debuts más antiguos (primeros 5):")
